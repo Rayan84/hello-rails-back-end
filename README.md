@@ -9,10 +9,13 @@
   - `cd hello-rails-back-end`
   - `bundle`
   - `rails db:migrate`
+  - `rails db:seed`
   - `rails server -p 10524`
   
 ## API
- To consume this API use the link: http://127.0.0.1:10524/greetings 
+ To consume this API:
+ - Use the front-end application `https://github.com/Rayan84/hello-react-front-end`.
+ - Use the link: http://127.0.0.1:10524/greetings as the API URL.
 
 ## Authors
 
